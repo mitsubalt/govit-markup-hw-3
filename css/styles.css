@@ -18,7 +18,20 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 /*--------------------HEADER-------------------*/
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .link-logo {
   font-weight: bold;
@@ -179,6 +192,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--link-color);
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -195,6 +209,11 @@ body {
   color: var(--btn-color);
 }
 
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features-title {
   font-weight: bold;
   font-size: 14px;
@@ -202,6 +221,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-color);
+  margin-bottom: 10px;
 }
 
 .features-after-title {
@@ -265,6 +285,10 @@ body {
   color: var(--title-color);
 }
 
+.about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .about-title {
   font-weight: bold;
   font-size: 36px;
@@ -272,6 +296,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 50px;
+}
+
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .work-title {
@@ -281,6 +311,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 50px;
 }
 
 .work-item-title {
