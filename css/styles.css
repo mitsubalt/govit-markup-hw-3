@@ -33,6 +33,21 @@ body {
   padding-bottom: 25px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-list,
+.list {
+  display: flex;
+}
+
+.header-portfolio {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .link-logo {
   font-weight: bold;
   font-size: 26px;
@@ -130,6 +145,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-bottom: 126px;
 }
 
 .header-mail:hover,
@@ -180,7 +196,9 @@ body {
 /*-------------------HERO----------------*/
 
 .hero {
-  background-color: #757575;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -209,6 +227,8 @@ body {
   color: var(--btn-color);
 }
 
+/*----------features--------*/
+
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -231,9 +251,11 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 94px;
 }
 
 .features-portfolio-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -241,6 +263,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 50px;
 }
 
 .features-portfolio-btn:hover,
@@ -265,6 +288,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--link-color);
+  margin-bottom: 50px;
 }
 
 .features-portfolio-item-title {
@@ -274,6 +298,7 @@ body {
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: var(--first-color);
+  margin-bottom: 4px;
 }
 
 .features-portfolio-item-text {
@@ -283,7 +308,10 @@ body {
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 50px;
 }
+
+/*-----------about-------*/
 
 .about {
   padding-top: 94px;
@@ -298,6 +326,8 @@ body {
   color: var(--first-color);
   margin-bottom: 50px;
 }
+
+/*------------work--------*/
 
 .work {
   padding-top: 94px;
@@ -322,6 +352,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--first-color);
+  margin-bottom: 10px;
 }
 
 .work-item-text {
@@ -332,10 +363,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 124px;
 }
 
+/*----------footer-------*/
+
 .footer {
-  background-color: #212121;
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .link-logo {
@@ -407,6 +443,8 @@ body {
 }
 
 .footer-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #212121;
 }
 
@@ -417,6 +455,7 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  margin-bottom: 20px;
 }
 
 .footer-portfolio-logo {
@@ -426,6 +465,7 @@ body {
   /* identical to box height */
   letter-spacing: 0.03em;
   color: var(--link-color);
+  margin-bottom: 20px;
 }
 
 .footer-portfolio-google-maps {
@@ -436,6 +476,7 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--link-color);
+  margin-bottom: 9px;
 }
 
 .footer-portfolio-mail {
@@ -446,6 +487,7 @@ body {
   /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 6px;
 }
 
 .footer-portfolio-tel {
