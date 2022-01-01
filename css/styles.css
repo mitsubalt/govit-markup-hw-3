@@ -33,14 +33,26 @@ body {
   padding-bottom: 25px;
 }
 
+.header-logo {
+  margin-right: 93px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
 }
 
 .header-list,
-.list {
+.contakts-list {
   display: flex;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contakts-list {
+  margin-left: auto;
 }
 
 .header-portfolio {
@@ -94,6 +106,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--first-color);
+  margin-bottom: 5px;
 }
 
 .header-link:hover,
@@ -111,6 +124,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  margin-bottom: 5px;
 }
 
 .header-portfolio-link {
@@ -145,7 +159,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  margin-bottom: 126px;
+  margin-bottom: 32px;
 }
 
 .header-mail:hover,
@@ -198,7 +212,7 @@ body {
 .hero {
   background-color: #2f303a;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 210px;
 }
 
 .hero-title {
@@ -211,6 +225,7 @@ body {
   text-transform: uppercase;
   color: var(--link-color);
   margin-bottom: 30px;
+  max-width: 696px;
 }
 
 .hero-btn {
@@ -225,6 +240,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--btn-color);
+  min-width: 136px;
+  min-height: 30px;
 }
 
 /*----------features--------*/
@@ -232,6 +249,19 @@ body {
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-title {
@@ -242,6 +272,8 @@ body {
   text-transform: uppercase;
   color: var(--first-color);
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .features-after-title {
